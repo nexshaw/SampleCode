@@ -963,3 +963,11 @@ Also see the companion to this sample - iPhoneExtAudioFileConvertTest.
 [URL](https://developer.apple.com/library/ios/#samplecode/iPhoneACFileConvertTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010581)
 
 Last Revision:	Version 1.0, 2010-12-10
+
+#Popovers#
+
+This sample demonstrates proper use of UIPopoverController in iOS. UIPopoverController presentation, dismissing, and rotation handling are covered. The sample is provided using a UISplitViewController in order to show proper handling of UIPopoverControllers being presented from UIBarButtonItems. Additional handling ensures that multiple UIPopoverControllers are never presented at the same time.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Popovers/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010436)
+
+Last Revision:	Version 1.0, 2010-10-20
