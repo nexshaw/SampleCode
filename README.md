@@ -923,3 +923,11 @@ Each icon has one dimension of the pixel dimensions on it to display which icon 
 [URL](https://developer.apple.com/library/ios/#samplecode/Icons/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010442)
 
 Last Revision:	Version 1.0, 2010-10-22
+
+#WiTap#
+
+The WiTap sample application demonstrates how to achieve network communication between applications. Using Bonjour, the application both advertises itself on the local network and displays a list of other instances of this application on the network.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/WiTap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007321)
+
+Last Revision:	Version 1.8, 2010-10-22
