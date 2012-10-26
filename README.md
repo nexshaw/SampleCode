@@ -893,3 +893,15 @@ AdvancedTableViewCells includes three different cells that all display content i
 [URL](https://developer.apple.com/library/ios/#samplecode/AdvancedTableViewCells/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009111)
 
 Last Revision:	Version 1.5, 2011-01-11
+
+#MoveMe#
+
+This application illustrates simple drawing, touch handling, and animation using UIKit and Core Animation.
+
+A touch inside a placard animates it in two ways: Its transform is changed such that it appears to pulse, and it is moved such that its center is directly under the touch.
+
+A drag moves the placard so that it remains centered under the touch. When the touch ends, the placard is animated back to the center of the screen, and its original (identity) transform restored.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MoveMe/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007315)
+
+Last Revision:	Version 2.10, 2010-12-23
