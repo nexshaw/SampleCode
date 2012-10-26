@@ -913,3 +913,13 @@ This application shows how to target older OS versions while building with newly
 [URL](https://developer.apple.com/library/ios/#samplecode/MessageComposer/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010161)
 
 Last Revision:	Version 1.1, 2010-11-08
+
+#Icons#
+
+This sample demonstrates the proper use of application icons on iOS. This is a universal binary that supports iPhone/iPod touch/iPad and includes support for high resolution displays.
+
+Each icon has one dimension of the pixel dimensions on it to display which icon is being used by various areas of iOS. The various icons display when using the Homescreen, Spotlight, the Settings app, different devices, and when creating an Ad Hoc build and adding it to iTunes.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Icons/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010442)
+
+Last Revision:	Version 1.0, 2010-10-22
