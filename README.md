@@ -931,3 +931,11 @@ The WiTap sample application demonstrates how to achieve network communication b
 [URL](https://developer.apple.com/library/ios/#samplecode/WiTap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007321)
 
 Last Revision:	Version 1.8, 2010-10-22
+
+#MVCNetworking#
+
+MVCNetworking is a sample that shows how to create a network application using the Model-View-Controller design pattern. Specifically, it displays a photo gallery by getting the gallery's XML description, thumbnails and photos from a web server, and uses Core Data to cache this information locally.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MVCNetworking/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010443-Intro-DontLinkElementID_2)
+
+Last Revision:	Version 1.0, 2010-10-22
