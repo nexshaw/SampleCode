@@ -905,3 +905,11 @@ A drag moves the placard so that it remains centered under the touch. When the t
 [URL](https://developer.apple.com/library/ios/#samplecode/MoveMe/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007315)
 
 Last Revision:	Version 2.10, 2010-12-23
+
+#MessageComposer#
+
+This application shows how to target older OS versions while building with newly released APIs. It also illustrates how to use the MessageUI framework to compose and send email and SMS messages from within your application.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MessageComposer/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010161)
+
+Last Revision:	Version 1.1, 2010-11-08
