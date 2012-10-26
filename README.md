@@ -885,3 +885,11 @@ This sample demonstrates various advanced networking techniques with NSURLConnec
 [URL](https://developer.apple.com/library/ios/#samplecode/AdvancedURLConnections/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009558)
 
 Last Revision:	Version 1.2, 2011-01-26
+
+#AdvancedTableViewCells#
+
+AdvancedTableViewCells includes three different cells that all display content in the same form as the App Store application. One uses individual subviews (image views, labels, etc.) to display the content. Another uses a single view that draws all of the content. A third uses a single view to draw most of the content and separate views for the remainder.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/AdvancedTableViewCells/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009111)
+
+Last Revision:	Version 1.5, 2011-01-11
