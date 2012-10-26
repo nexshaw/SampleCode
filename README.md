@@ -947,3 +947,19 @@ GKTapper is a sample application that shows how to support GameCenter Leaderboar
 [URL](https://developer.apple.com/library/ios/#samplecode/GKTapper/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010283)
 
 Last Revision:	Version 1.1, 2010-12-10
+
+#iPhoneACFileConvertTest#
+
+Demonstrates using the Audio Converter APIs to convert from a PCM audio format to a compressed format.
+
+Four encoding formats may be chosen in the UI along with different sample rates for the produced output.caf file. AAC encoding using Audio Converter requires 4.1 or later and a hardware capable device such as the iPhone 3GS. If run on a device which does not support hardware assisted AAC encoding, the AAC encoding choice will be dimmed.
+
+Interruption handling during processing is also demonstrated. Hardware assisted encoding requires specific interruption handling since the codec state may change due to the interruption.
+
+All the relevant audio specific code is in the file AudioConverterFileConvert.cpp.
+
+Also see the companion to this sample - iPhoneExtAudioFileConvertTest.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/iPhoneACFileConvertTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010581)
+
+Last Revision:	Version 1.0, 2010-12-10
