@@ -939,3 +939,11 @@ MVCNetworking is a sample that shows how to create a network application using t
 [URL](https://developer.apple.com/library/ios/#samplecode/MVCNetworking/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010443-Intro-DontLinkElementID_2)
 
 Last Revision:	Version 1.0, 2010-10-22
+
+#GKTapper#
+
+GKTapper is a sample application that shows how to support GameCenter Leaderboards and Achievements. It also demonstrates using GKLeaderboardViewController and GKAchievementViewController to display this data.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GKTapper/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010283)
+
+Last Revision:	Version 1.1, 2010-12-10
