@@ -971,3 +971,13 @@ This sample demonstrates proper use of UIPopoverController in iOS. UIPopoverCont
 [URL](https://developer.apple.com/library/ios/#samplecode/Popovers/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010436)
 
 Last Revision:	Version 1.0, 2010-10-20
+
+#aurioTouch#
+
+aurioTouch demonstrates use of the remote i/o audio unit for handling audio input and output. The application can display the input audio in one of the forms, a regular time domain waveform, a frequency domain waveform (computed by performing a fast fourier transform on the incoming signal), and a sonogram view (a view displaying the frequency content of a signal over time, with the color signaling relative power, the y axis being frequency and the x as time).
+
+The code in auriouTouch uses the remote i/o audio unit (AURemoteIO) for input and output of audio, and OpenGL for display of the input waveform. The application also uses Audio Session Services to manage route changes (as described in Core Audio Overview).
+
+[URL](https://developer.apple.com/library/ios/#samplecode/aurioTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007770)
+
+Last Revision:	Version 1.21, 2010-10-20
