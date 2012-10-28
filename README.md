@@ -995,3 +995,11 @@ Based on the UIDevice idiom type, the UIApplication delegate loads two different
 [URL](https://developer.apple.com/library/ios/#samplecode/PageControl/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007795)
 
 Last Revision:	Version 1.4, 2010-10-18
+
+#ListAdder#
+
+This sample demonstrates the technique of thread confinement using NSOperation. It was written to support TN2109 "Simple and Reliable Threading with NSOperation".
+
+[URL](https://developer.apple.com/library/ios/#samplecode/ListAdder/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010275)
+
+Last Revision:	Version 1.0, 2010-08-27
