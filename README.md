@@ -1019,3 +1019,17 @@ The Reachability sample application demonstrates how to use the SystemConfigurat
 [URL](https://developer.apple.com/library/ios/#samplecode/Reachability/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007324)
 
 Last Revision:	Version 2.2, 2010-07-20
+
+#GLImageProcessing#
+
+The GLImageProcessing sample application demonstrates how to implement simple image processing filters (Brightness, Contrast, Saturation, Hue rotation, Sharpness) using OpenGL ES1.1. The sample also shows how to create simple procedural button icons using CoreGraphics.
+
+By looking at the code you'll see how to set up an OpenGL ES view and use it for applying a filter to a texture. The application creates a texture from an image loaded from disk. It pads the image to a power of two, if required by the GPU.
+
+The Debug configuration in the Xcode project defines DEBUG and ASSERT preprocessor macros, to enable additional error checking.
+
+To use this sample, open it in Xcode and click Build and Go. Use the slider to control the current filter. Only a single filter is applied at a time.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLImageProcessing/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009053)
+
+Last Revision:	Version 1.2, 2010-06-29
