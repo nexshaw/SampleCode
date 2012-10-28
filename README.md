@@ -981,3 +981,17 @@ The code in auriouTouch uses the remote i/o audio unit (AURemoteIO) for input an
 [URL](https://developer.apple.com/library/ios/#samplecode/aurioTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007770)
 
 Last Revision:	Version 1.21, 2010-10-20
+
+#PageControl#
+
+This application primarily demonstrates use of UIScrollView's paging functionality to use horizontal scrolling as a mechanism for navigating between different pages of content. With the iPad, this type of user interface is not really necessary since the screen is larger allowing for more content and detailed information.
+
+Designed as a universal application for both iPhone and iPad, this sample shows how to use two different sets of content, depending on which device the sample is running. The idea is that the iPhone uses a "smaller" set of images, while the iPad uses a "larger" set of images plus more detailed information.  As a universal app this sample shows how to factor out these two types of UI and data based on the device.
+
+For the iPhone - The app uses UIScrollView and UIPageControl to move between pages. For the iPad - The app uses one large UIView with tiled pages, each page presenting a popover to display more detailed information.
+
+Based on the UIDevice idiom type, the UIApplication delegate loads two different set of nib files, one for the iPhone and the other for the iPad.  To direct this kind of UI factoring, the sample uses a base class called "ContentController". Subclasses of ContentController are used to support each device. Hence, the app loads two different user interfaces (or xibs) as well as two different sets of data driven by the ContentController.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/PageControl/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007795)
+
+Last Revision:	Version 1.4, 2010-10-18
