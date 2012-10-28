@@ -1003,3 +1003,11 @@ This sample demonstrates the technique of thread confinement using NSOperation. 
 [URL](https://developer.apple.com/library/ios/#samplecode/ListAdder/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010275)
 
 Last Revision:	Version 1.0, 2010-08-27
+
+#BatteryStatus#
+
+Demonstrates the use of the battery status properties and notifications provided via the iOS SDK.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/BatteryStatus/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008812)
+
+Last Revision:	Version 1.1, 2010-07-22
