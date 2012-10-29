@@ -1033,3 +1033,11 @@ To use this sample, open it in Xcode and click Build and Go. Use the slider to c
 [URL](https://developer.apple.com/library/ios/#samplecode/GLImageProcessing/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009053)
 
 Last Revision:	Version 1.2, 2010-06-29
+
+#TouchCells#
+
+Demonstrates how to implement trackable-settable UIControls embedded in a UITableView. This approach is handy if an application already uses its accessory view to the right of the table cell, but still wants a check mark view that supports toggling states of individual row items. The green check mark on the left provides this need which is trackable (checked/unchecked) independent of table selection. This is a similar user interface to that of Mail's Inbox table where mail items can be individually checked and unchecked for deletion.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/TouchCells/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008062)
+
+Last Revision:	Version 1.4, 2010-06-29
