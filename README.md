@@ -1059,3 +1059,15 @@ The SeismicXML sample application demonstrates how to use NSXMLParser to parse X
 [URL](https://developer.apple.com/library/ios/#samplecode/SeismicXML/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007323)
 
 Last Revision:	Version 2.3, 2010-08-18
+
+#AppPrefs#
+
+Demonstrates how to display your app's preferences or settings in the "Settings" system application. A settings bundle, included in your application’s bundle directory, contains the information needed by the Settings application to display your preferences and make it possible for the user to modify them. It then saves any configured values in the defaults database so that your application can retrieve them at runtime.
+
+This sample also shows how to dynamically update it's UI when its settings are changed while the app is in the background via "NSUserDefaultsDidChangeNotification".
+
+This sample offers an Xcode project already pre-configured to build your Settings bundle as a target. To customize your settings UI, change the Root.plist file.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/AppPrefs/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007799)
+
+Last Revision:	Version 1.5, 2010-06-29
