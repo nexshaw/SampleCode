@@ -1041,3 +1041,13 @@ Demonstrates how to implement trackable-settable UIControls embedded in a UITabl
 [URL](https://developer.apple.com/library/ios/#samplecode/TouchCells/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008062)
 
 Last Revision:	Version 1.4, 2010-06-29
+
+#HazardMap#
+
+Demonstrates how to create a custom Map Kit overlay to display USGS earthquake hazard data. It shows how to create a custom Map Kit overlay and corresponding view to display USGS earthquake hazard data on top of an MKMapView.
+
+For more information on earthquake hazard data, see "http://earthquake.usgs.gov/hazards/products/conterminous/2008/data/".
+
+[URL](https://developer.apple.com/library/ios/#samplecode/HazardMap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010049)
+
+Last Revision:	Version 1.1, 2010-08-24
