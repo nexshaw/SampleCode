@@ -1051,3 +1051,11 @@ For more information on earthquake hazard data, see "http://earthquake.usgs.gov/
 [URL](https://developer.apple.com/library/ios/#samplecode/HazardMap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010049)
 
 Last Revision:	Version 1.1, 2010-08-24
+
+#SeismicXML#
+
+The SeismicXML sample application demonstrates how to use NSXMLParser to parse XML data. When you launch the application it downloads and parses an RSS feed from the United States Geological Survey (USGS) that provides data on recent earthquakes around the world. It displays the location, date, and magnitude of each earthquake, along with a color-coded graphic that indicates the severity of the earthquake. The XML parsing occurs on a background thread using NSOperation and updates the earthquakes table view with batches of parsed objects.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/SeismicXML/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007323)
+
+Last Revision:	Version 2.3, 2010-08-18
