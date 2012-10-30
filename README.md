@@ -1074,8 +1074,16 @@ Last Revision:	Version 1.5, 2010-06-29
 
 #GLSprite#
 
-he GLSprite sample application shows how to create a texture from an image. By looking at the code, you'll learn how to use Core Graphics to create a bitmap context and draw an image into the context. You'll then see how to use OpenGL ES to create a texture from the image data.
+The GLSprite sample application shows how to create a texture from an image. By looking at the code, you'll learn how to use Core Graphics to create a bitmap context and draw an image into the context. You'll then see how to use OpenGL ES to create a texture from the image data.
 
 [URL](https://developer.apple.com/library/ios/#samplecode/GLSprite/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007325)
 
 Last Revision: Version 1.9, 2010-08-18
+
+#GLPaint#
+
+The GLPaint sample application demonstrates how to support single finger painting using OpenGL ES. This sample also shows how to detect a "shake" motion of the device. By looking at the code you'll see how to set up an OpenGL ES view and use it for rendering painting strokes. The application creates a brush texture from an image by first drawing the image into a Core Graphics bitmap context. It then uses the bitmap data for the texture. The image used for a texture must have dimensions that are a power of 2.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLPaint/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007328)
+
+Last Revision:	Version 1.11, 2010-08-04
