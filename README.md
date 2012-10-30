@@ -1087,3 +1087,11 @@ The GLPaint sample application demonstrates how to support single finger paintin
 [URL](https://developer.apple.com/library/ios/#samplecode/GLPaint/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007328)
 
 Last Revision:	Version 1.11, 2010-08-04
+
+#Audio Mixer (MixerHost)#
+
+MixerHost demonstrates how to use the Multichannel Mixer audio unit in an iOS application. It also demonstrates how to use a render callback function to provide audio to an audio unit input bus. In this sample, the audio delivered by the callback comes from two short loops read from disk. You could use a similar callback, however, to synthesize sounds to feed into a mixer unit. This sample is described in Audio Unit Hosting Guide for iOS.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MixerHost/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010210)
+
+Last Revision:	Version 1.0, 2010-07-27
