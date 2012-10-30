@@ -1095,3 +1095,11 @@ MixerHost demonstrates how to use the Multichannel Mixer audio unit in an iOS ap
 [URL](https://developer.apple.com/library/ios/#samplecode/MixerHost/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010210)
 
 Last Revision:	Version 1.0, 2010-07-27
+
+#Audio UI Sounds (SysSound)#
+
+Demonstrates use of System Sound Services (AudioToolbox/AudioServices.h) to play alerts and user-interface sound effects, and to invoke vibration.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/SysSound/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008018)
+
+Last Revision:	Version 1.1, 2010-07-27
