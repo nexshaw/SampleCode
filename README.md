@@ -1071,3 +1071,11 @@ This sample offers an Xcode project already pre-configured to build your Setting
 [URL](https://developer.apple.com/library/ios/#samplecode/AppPrefs/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007799)
 
 Last Revision:	Version 1.5, 2010-06-29
+
+#GLSprite#
+
+he GLSprite sample application shows how to create a texture from an image. By looking at the code, you'll learn how to use Core Graphics to create a bitmap context and draw an image into the context. You'll then see how to use OpenGL ES to create a texture from the image data.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLSprite/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007325)
+
+Last Revision: Version 1.9, 2010-08-18
