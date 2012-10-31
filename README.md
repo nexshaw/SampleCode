@@ -1141,3 +1141,11 @@ This demonstrates the two primary use cases for the Core Location Framework: get
 [URL](https://developer.apple.com/library/ios/#samplecode/LocateMe/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007801)
 
 Last Revision:	Version 2.2, 2010-07-09
+
+#XMLPerformance#
+
+This sample explores two approaches to parsing XML, focusing on performance with respect to speed, memory footprint, and user experience. The XML data used is the current "Top 300" songs from the iTunes store. The data itself is not particularly important to the sample - it was chosen because of its simplicity, availability, and because the size (approximately 850KB) is sufficient to demonstrate the performance issues central to the sample.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/XMLPerformance/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008094)
+
+Last Revision:	Version 1.3, 2010-07-08
