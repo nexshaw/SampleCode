@@ -1103,3 +1103,11 @@ Demonstrates use of System Sound Services (AudioToolbox/AudioServices.h) to play
 [URL](https://developer.apple.com/library/ios/#samplecode/SysSound/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008018)
 
 Last Revision:	Version 1.1, 2010-07-27
+
+#EADemo#
+
+The sample can be used with any Made For iPod (MFI) device designed for use with the External Accessory Framework. The application will display an External Accessory attached device in the Accessories window, provide information registered by the MFI device, and provides methods to send and receive data to the device.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/EADemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010079)
+
+Last Revision:	Version 1.1, 2010-07-26
