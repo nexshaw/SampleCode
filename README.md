@@ -1149,3 +1149,11 @@ This sample explores two approaches to parsing XML, focusing on performance with
 [URL](https://developer.apple.com/library/ios/#samplecode/XMLPerformance/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008094)
 
 Last Revision:	Version 1.3, 2010-07-08
+
+#iPhoneMultichannelMixerTest#
+
+Demonstrates how to build an Audio Unit Graph connecting a Multichannel Mixer instance to the RemoteIO unit. Two input busses are created each with input volume controls. An overall mixer output volume control is also provided and each bus may be enabled or disabled.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/iPhoneMultichannelMixerTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009113)
+
+Last Revision:	Version 1.1, 2010-07-07
