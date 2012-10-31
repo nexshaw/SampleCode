@@ -1125,3 +1125,11 @@ All the relevant audio specific code is in the file ExtAudioFileConvert.cpp.
 [URL](https://developer.apple.com/library/ios/#samplecode/iPhoneExtAudioFileConvertTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009222)
 
 Last Revision:	Version 1.1, 2010-07-22
+
+#GenericKeychain#
+
+This sample shows how to add, query for, remove, and update a keychain item of generic class type. Also demonstrates the use of shared keychain items. All classes exhibit very similar behavior so the included examples will scale to the other classes of Keychain Item: Internet Password, Certificate, Key, and Identity.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GenericKeychain/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007797)
+
+Last Revision:	Version 1.2, 2010-07-22
