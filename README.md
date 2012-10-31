@@ -1111,3 +1111,17 @@ The sample can be used with any Made For iPod (MFI) device designed for use with
 [URL](https://developer.apple.com/library/ios/#samplecode/EADemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010079)
 
 Last Revision:	Version 1.1, 2010-07-26
+
+#iPhoneExtAudioFileConvertTest#
+
+Demonstrates using ExtAudioFile API to convert from one audio format and file type to another.
+
+Four encoding formats may be chosen in the UI along with different sample rates for the produced output.caf file. AAC encoding requires both iPhone OS 3.1 and a hardware capable device such as the iPhone 3GS. If run on a device which does not support hardware assisted AAC encoding, the AAC encoding choice will be dimmed.
+
+Interruption handling during processing is also demonstrated. Hardware assisted encoding requires specific interruption handling since the codec state may change due to the interruption.
+
+All the relevant audio specific code is in the file ExtAudioFileConvert.cpp.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/iPhoneExtAudioFileConvertTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009222)
+
+Last Revision:	Version 1.1, 2010-07-22
