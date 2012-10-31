@@ -1133,3 +1133,11 @@ This sample shows how to add, query for, remove, and update a keychain item of g
 [URL](https://developer.apple.com/library/ios/#samplecode/GenericKeychain/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007797)
 
 Last Revision:	Version 1.2, 2010-07-22
+
+#LocateMe#
+
+This demonstrates the two primary use cases for the Core Location Framework: getting the user's location and tracking changes to the user's location.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/LocateMe/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007801)
+
+Last Revision:	Version 2.2, 2010-07-09
