@@ -1213,3 +1213,11 @@ Demonstrates how to implement and customize the 2 UIView properties of UITableVi
 [URL](https://developer.apple.com/library/ios/#samplecode/HeaderFooter/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007989)
 
 Last Revision:	Version 1.3, 2010-06-29
+
+#oalTouch#
+
+The code uses OpenAL to play a single audio source. Move source or listener position by dragging icons around on the grid. Turn accelerometer functionality on to set listener orientation by tilting the device.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/oalTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007769)
+
+Last Revision:	Version 1.9, 2010-06-29
