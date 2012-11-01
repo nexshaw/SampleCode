@@ -1173,3 +1173,13 @@ The GLGravity sample application demonstrates how to use the UIAccelerometer cla
 [URL](https://developer.apple.com/library/ios/#samplecode/GLGravity/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007327)
 
 Last Revision:	Version 2.2, 2010-07-06
+
+#WeatherMap#
+
+Demonstrates the use of the MapKit framework, displaying a map view with custom MKAnnotationViews.
+
+An annotation object on a map is any object that conforms to the MKAnnotation protocol and is displayed on the screen as a MKAnnotationView. Through the use of the MKAnnotation protocol and MKAnnotationView, this application identifies four major cities in North America with fictitious weather information.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/WeatherMap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009491)
+
+Last Revision:	Version 1.1, 2010-07-01
