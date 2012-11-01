@@ -1221,3 +1221,11 @@ The code uses OpenAL to play a single audio source. Move source or listener posi
 [URL](https://developer.apple.com/library/ios/#samplecode/oalTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007769)
 
 Last Revision:	Version 1.9, 2010-06-29
+
+#AQOfflineRenderTest#
+
+Demonstrates using Audio Queue offline render functionality and the AudioQueueOfflineRender API. The sample produces LPCM output buffers from an ALAC encoded source which are then written to a .caf file. The output.caf file is then played back confirming the offline functionality worked as expected. All the code demonstrating the Audio Queue is in a single file called aqofflinerender.cpp.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/AQOfflineRenderTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008413)
+
+Last Revision:	Version 1.2, 2010-06-28
