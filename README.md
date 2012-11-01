@@ -1205,3 +1205,11 @@ Events have a to-many relationship to tags (which have an inverse to-many relati
 [URL](https://developer.apple.com/library/ios/#samplecode/TaggedLocations/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008914)
 
 Last Revision:	Version 1.3, 2010-06-29
+
+#HeaderFooter#
+
+Demonstrates how to implement and customize the 2 UIView properties of UITableView: header ('tableHeaderView') and footer ('tableFooterView'). It is designed to somewhat resemble the "Contacts" application, showing you ways to design your own header and footer content. It uses the UITableViewStyle: UITableViewStyleGrouped to achieve a more similar appearance as well.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/HeaderFooter/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007989)
+
+Last Revision:	Version 1.3, 2010-06-29
