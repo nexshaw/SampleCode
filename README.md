@@ -1263,3 +1263,11 @@ The application uses table views to display EKCalendar object and EKEvent object
 [URL](https://developer.apple.com/library/ios/#samplecode/SimpleEKDemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010160)
 
 Last Revision:	Version 1.0, 2010-06-25
+
+#MapCallouts#
+
+Demonstrates the use of the MapKit framework, displaying a map view with custom MKAnnotations each with custom callouts. An annotation object on a map is any object that conforms to the MKAnnotation protocol and is displayed on the screen as a MKAnnotationView. Through the use of the MKAnnotation protocol and MKAnnotationView, this application shows how you can extend annotations with custom strings and left/right calloutAccessoryViews.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MapCallouts/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009746)
+
+Last Revision:	Version 1.2, 2010-06-25
