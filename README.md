@@ -1193,3 +1193,15 @@ The app draws a graph of a formula and allows the user to change certain constan
 [URL](https://developer.apple.com/library/ios/#samplecode/Formulaic/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008932)
 
 Last Revision:	Version 1.2, 2010-07-01
+
+#TaggedLocations#
+
+This sample illustrates how to manipulate attributes and relationships in an iPhone application.
+
+The application extends the the completed project from the Core Data Tutorial for iPhone OS. The first screen displays a table view of events, which encapsulate a time stamp, a geographical location expressed in latitude and longitude, and a name for the event. The user can add, remove, and edit events using the first screen.
+
+Events have a to-many relationship to tags (which have an inverse to-many relationship to events). Tags have a name which describes a feature of an event. Tags are displayed in a second table view; when a tag is related to the selected event, a check mark is displayed in the corresponding row.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/TaggedLocations/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008914)
+
+Last Revision:	Version 1.3, 2010-06-29
