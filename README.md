@@ -1229,3 +1229,11 @@ Demonstrates using Audio Queue offline render functionality and the AudioQueueOf
 [URL](https://developer.apple.com/library/ios/#samplecode/AQOfflineRenderTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008413)
 
 Last Revision:	Version 1.2, 2010-06-28
+
+#AccelerometerGraph#
+
+AccelerometerGraph sample application graphs the motion of the device. It demonstrates how to use the UIAccelerometer class and how to use Quartz2D and Core Animation to provide a high performance graph view. It also demonstrates a low-pass filter that you can use to isolate the effects of gravity, and a high-pass filter that you can use to remove the effects of gravity.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/AccelerometerGraph/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007410)
+
+Last Revision:	Version 2.5, 2010-06-28
