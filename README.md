@@ -1247,3 +1247,19 @@ The use of the Core Location API for getting "heading" data is contained in the 
 [URL](https://developer.apple.com/library/ios/#samplecode/Teslameter/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008931)
 
 Last Revision:	Version 1.2, 2010-06-28
+
+#SimpleEKDemo#
+
+The application uses table views to display EKCalendar object and EKEvent objects retrieved from an EKEventStore object. It implements EKEventViewController for viewing and editing existing EKEvents, and uses EKEventEditViewController for creating new EKEvents.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/SimpleEKDemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010160)
+
+Last Revision:	Version 1.0, 2010-06-25
+
+#SimpleEKDemo#
+
+The application uses table views to display EKCalendar object and EKEvent objects retrieved from an EKEventStore object. It implements EKEventViewController for viewing and editing existing EKEvents, and uses EKEventEditViewController for creating new EKEvents.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/SimpleEKDemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010160)
+
+Last Revision:	Version 1.0, 2010-06-25
