@@ -1157,3 +1157,11 @@ Demonstrates how to build an Audio Unit Graph connecting a Multichannel Mixer in
 [URL](https://developer.apple.com/library/ios/#samplecode/iPhoneMultichannelMixerTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009113)
 
 Last Revision:	Version 1.1, 2010-07-07
+
+#GLES2Sample#
+
+PowerVR SGX platforms support both OpenGL ES 1.1 and 2.0. This sample demonstrates how to create an OpenGL ES 1.1 and 2.0 compatible project. When running on PowerVR MBX platforms (e.g.,1st and 2nd generation iPod touch, 1st generation iPhone, iPhone 3G), the sample draws using OpenGL ES 1.1; when running on PowerVR SGX platforms (e.g., iPhone 3GS and 3rd generation iPod touch), the sample draws using OpenGL ES 2.0.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLES2Sample/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009188)
+
+Last Revision:	Version 1.1, 2010-07-07
