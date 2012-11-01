@@ -1165,3 +1165,11 @@ PowerVR SGX platforms support both OpenGL ES 1.1 and 2.0. This sample demonstrat
 [URL](https://developer.apple.com/library/ios/#samplecode/GLES2Sample/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009188)
 
 Last Revision:	Version 1.1, 2010-07-07
+
+#GLGravity#
+
+The GLGravity sample application demonstrates how to use the UIAccelerometer class in combination with OpenGL rendering. It shows how to extract the gravity vector from the accelerometer values using a basic low-pass filter, and how to build an OpenGL transformation matrix from it.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLGravity/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007327)
+
+Last Revision:	Version 2.2, 2010-07-06
