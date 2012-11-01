@@ -1183,3 +1183,13 @@ An annotation object on a map is any object that conforms to the MKAnnotation pr
 [URL](https://developer.apple.com/library/ios/#samplecode/WeatherMap/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009491)
 
 Last Revision:	Version 1.1, 2010-07-01
+
+#Formulaic#
+
+Formulaic is a sample iPhone app that illustrates how to effectively use the iPhone Accessibility API. Using the Accessibility API allows your app to work correctly with VoiceOver.
+
+The app draws a graph of a formula and allows the user to change certain constants in the formula, however its main purpose is to illustrate the iPhone Accessibility API.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Formulaic/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008932)
+
+Last Revision:	Version 1.2, 2010-07-01
