@@ -1237,3 +1237,13 @@ AccelerometerGraph sample application graphs the motion of the device. It demons
 [URL](https://developer.apple.com/library/ios/#samplecode/AccelerometerGraph/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007410)
 
 Last Revision:	Version 2.5, 2010-06-28
+
+#Teslameter#
+
+This application implements a Teslameter, a magnetic field detector. It displays the raw x, y, and z magnetometer values, a plotted history of those values, and a computed magnitude (size or strength) of the magnetic field.
+
+The use of the Core Location API for getting "heading" data is contained in the TeslameterViewController class. It creates a CLLocationManager object and uses it to get heading by invoking -[CLLocationManager startUpdatingHeading]. It implements the CLLocationManagerDelegate APIs for receiving heading and updates its user interface accordingly.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Teslameter/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008931)
+
+Last Revision:	Version 1.2, 2010-06-28
