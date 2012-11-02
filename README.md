@@ -1295,3 +1295,21 @@ The sorting is all done at fetch time by the fetched results controller. The sec
 [URL](https://developer.apple.com/library/ios/#samplecode/DateSectionTitles/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009939)
 
 Last Revision:	Version 1.2, 2010-06-25
+
+#WorldCities#
+
+Demonstrates basic use of MapKit, including displaying a map view and setting its region.
+
+A list of cities are stored in a plist file loaded at launch time. Each city is represented by a "WorldCity" class which consists of a name, a latitude, and a longitude. The user can select from a pre-defined world cities. When a world cities is selected, the map view animates to a region with the coordinates of the world cities in the center of the view. The user can also choose between map types - Standard, Satellite, and Hybrid - using the segmented control in the toolbar of the main view.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/WorldCities/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009466)
+
+Last Revision:	Version 1.1, 2010-06-25
+
+#QuartzDemo#
+
+QuartzDemo is an iPhone OS application that demonstrates many of the Quartz2D APIs made available by the CoreGraphics framework. Quartz2D forms the foundation of all drawing on iPhone OS and provides facilities for drawing lines, polygons, curves, images, gradients, PDF and many other graphical facilities.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/QuartzDemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007531)
+
+Last Revision:	Version 2.5, 2010-06-25
