@@ -1337,3 +1337,19 @@ This sample demonstrates how to use a texture atlas to draw multiple objects wit
 [URL](https://developer.apple.com/library/ios/#samplecode/GLTextureAtlas/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009014)
 
 Last Revision:	Version 1.5, 2010-06-25
+
+#TransWeb#
+
+Demonstrates how to implement UIWebView with a transparent background.
+
+To achieve this you need to make the HTML body's background color transparent by doing the following -
+
+1) set the UIWebView's backgroundColor property to [UIColor clearColor]
+
+2) use the UIWebView's content in the html: <body style="background-color: transparent">
+
+3) the UIWebView's opaque property set to NO
+
+[URL](https://developer.apple.com/library/ios/#samplecode/TransWeb/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008614)
+
+Last Revision:	Version 1.4, 2010-06-25
