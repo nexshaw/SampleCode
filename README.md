@@ -1313,3 +1313,19 @@ QuartzDemo is an iPhone OS application that demonstrates many of the Quartz2D AP
 [URL](https://developer.apple.com/library/ios/#samplecode/QuartzDemo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007531)
 
 Last Revision:	Version 2.5, 2010-06-25
+
+#iPhoneMixerEQGraphTest#
+
+iPhoneMixerEQGraphTest demonstrates how to build an Audio Unit Graph connecting a MultiChannel Mixer to the iPodEQ unit then to the RemoteIO unit.
+
+Two input busses are created each with input volume controls. An overall mixer output volume control is also provided and each bus may be enabled or disabled. The iPodEQ may be enabled or disabled and a preset EQ curve may be chosen via a picker in the iPod Equalizer view. iPhoneMixerEQGraphTest uses 44.1kHz source and sets the hardware sample rate to 44.1kHz to avoid any extraneous sample rate conversions.
+
+Touching the "Play Audio" button simply calls AUGraphStart while "Stop Audio" calls AUGraphStop. Changing AU volume is performed via AudioUnitSetParameter. The iPodEQ unit presets are returned by using AudioUnitGetProperty asking for the kAudioUnitProperty_FactoryPresets CFArrayRef. A current preset is then selected calling AudioUnitSetProperty using the kAudioUnitProperty_PresentPreset property and passing in the appropriate AUPreset. Note that the AU Host owns the returned CFArray and should release it when done.
+
+Audio data is provided from two stereo audio files. The audio data is AAC compressed and ExtAudioFile is used to convert this data to the Core Audio Canonical uncompressed LPCM client format for input to the multichannel mixer.
+
+All the relevant audio code is in the file AUGraphController.mm
+
+[URL](https://developer.apple.com/library/ios/#samplecode/iPhoneMixerEQGraphTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009555)
+
+Last Revision:	Version 1.2, 2010-06-25
