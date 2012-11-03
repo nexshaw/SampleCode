@@ -1451,3 +1451,11 @@ Using a grouped style UITableViewController, the sample has two UITableViewCells
 [URL](https://developer.apple.com/library/ios/#samplecode/DateCell/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008866)
 
 Last Revision:	Version 1.1, 2010-06-17
+
+#TableSearch#
+
+Demonstrates how to search the contents of a UITableView using UISearchBar and UISearchDisplayController, effectively filtering in and out the contents of that table. If an iPhone/iPod Touch application has large amounts of table data, this sample shows how to filter it down to a manageable amount if memory usage is a concern or you just want users to scroll through less table content.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/TableSearch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007848)
+
+Last Revision:	Version 1.5, 2010-06-17
