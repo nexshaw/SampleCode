@@ -1413,3 +1413,11 @@ The application illustrates the following techniques: configuring and responding
 [URL](https://developer.apple.com/library/ios/#samplecode/TheElements/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007419)
 
 Last Revision:	Version 1.11, 2010-06-23
+
+#SimpleUndo#
+
+The root view controller displays information (title, author, and copyright date) about a book. The user can edit this information by tapping Edit in the navigation bar. When editing starts, the root view controller creates an undo manager to record changes. The undo manager supports up to three levels of undo and redo. When the user taps Done, changes are considered to be committed and the undo manager is disposed of.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/SimpleUndo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008408)
+
+Last Revision:	Version 1.1, 2010-06-23
