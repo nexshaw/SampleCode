@@ -1329,3 +1329,11 @@ All the relevant audio code is in the file AUGraphController.mm
 [URL](https://developer.apple.com/library/ios/#samplecode/iPhoneMixerEQGraphTest/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009555)
 
 Last Revision:	Version 1.2, 2010-06-25
+
+#GLTextureAtlas#
+
+This sample demonstrates how to use a texture atlas to draw multiple objects with different textures simultaneously using OpenGL ES. The application uses a texture atlas in the PVR format. By adding in degenerated triangles, and compute 3D transformations ourselves using matrices, we are able to collapse all the draw calls into one.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GLTextureAtlas/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009014)
+
+Last Revision:	Version 1.5, 2010-06-25
