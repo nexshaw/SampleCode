@@ -1353,3 +1353,11 @@ To achieve this you need to make the HTML body's background color transparent by
 [URL](https://developer.apple.com/library/ios/#samplecode/TransWeb/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008614)
 
 Last Revision:	Version 1.4, 2010-06-25
+
+#LaunchMe#
+
+The LaunchMe sample application demonstrates how to register a new URL type. Registering a new URL type allows other applications to interact with yours. This sample also shows how to handle an incoming openURL: message from another application. When servicing an openURL: message from another application, you must be very careful to validate the URL in the message before allowing your application to proceed. After you build and run LaunchMe, it displays a dialog with instructions on how to use the application.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/LaunchMe/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007417)
+
+Last Revision:	Version 1.6, 2010-06-24
