@@ -1441,3 +1441,13 @@ Tap the "Compose Mail" button to display an email composition interface if your 
 [URL](https://developer.apple.com/library/ios/#samplecode/MailComposer/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008865)
 
 Last Revision:	Version 1.1, 2010-06-22
+
+#DateCell#
+
+Demonstrates formatted display of date objects in UITableViewCells and use of UIDatePicker to edit those values.
+
+Using a grouped style UITableViewController, the sample has two UITableViewCells to draw the primary title and NSDate value. This is accomplished using the built-in cell type "UITableViewCellStyleValue1" which supports left and right text. In addition, this sample shows how to use NSDateFormatter class to achieve the custom cell's date-formatted appearance.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/DateCell/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008866)
+
+Last Revision:	Version 1.1, 2010-06-17
