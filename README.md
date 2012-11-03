@@ -1389,3 +1389,13 @@ The fifth example is an extension of the fourth. It displays even more informati
 [URL](https://developer.apple.com/library/ios/#samplecode/TableViewSuite/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007318)
 
 Last Revision:	Version 2.4, 2010-06-24
+
+#Scrolling#
+
+Demonstrates how to implement two different style UIScrollViews. The first scroller contains multiple images, showing how to layout large content with multiple chunks of data (in our case 5 separate UIImageViews).
+
+The second scroller simply displays one image, matching its contentSize to the image size. The app's primary UIViewController manages both scrollers. Refer to this sample for best practices in how to implement content with a single image or with multiple images.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Scrolling/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008023)
+
+Last Revision:	Version 1.1, 2010-06-23
