@@ -1467,3 +1467,11 @@ This application illustrates the fundamentals of browsing for network services u
 [URL](https://developer.apple.com/library/ios/#samplecode/BonjourWeb/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007415)
 
 Last Revision:	Version 2.9, 2010-06-16
+
+#AddMusic#
+
+AddMusic demonstrates basic use of iPod library access, part of the Media Player framework. You use iPod library access to play songs, audio books, and audio podcasts that are synced from a user's desktop iTunes library. This sample uses the Media Player framework's built-in user interface for choosing music.  AddMusic also demonstrates how to mix application audio with iPod library audio. The sample includes code for configuring application audio behavior using the AVAudioSession class and Audio Session Services.
+ 
+ [URL](https://developer.apple.com/library/ios/#samplecode/AddMusic/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008845)
+ 
+Last Revision:	Version 1.1.1, 2009-10-01
