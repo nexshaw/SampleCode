@@ -1429,3 +1429,15 @@ Demonstrates how to implement a custom accessory view for your UITableView in th
 [URL](https://developer.apple.com/library/ios/#samplecode/Accessory/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008066)
 
 Last Revision:	Version 1.2, 2010-06-23
+
+#MailComposer#
+
+See new sample code "MessageComposer" which includes both Mail and Messages features.
+
+This application shows how to target older OS versions while building with newly released APIs. It also illustrates how to use the MessageUI framework to edit and send email messages from within your application.
+
+Tap the "Compose Mail" button to display an email composition interface if your device is running iPhone OS 3.0 or launch the Mail application, otherwise.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/MailComposer/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008865)
+
+Last Revision:	Version 1.1, 2010-06-22
