@@ -1421,3 +1421,11 @@ The root view controller displays information (title, author, and copyright date
 [URL](https://developer.apple.com/library/ios/#samplecode/SimpleUndo/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008408)
 
 Last Revision:	Version 1.1, 2010-06-23
+
+#Accessory#
+
+Demonstrates how to implement a custom accessory view for your UITableView in the form of a checkmark button. It shows you how to override the appearance or control of the accessory view, much like that of "UITableViewCellAccessoryDetailDisclosureButton". It implements the custom accessory view by setting the table's "accessoryView" property with a UIButton of type "UIButtonTypeCustom". It can be toggled by selecting the entire table row by implementing UITableView's "didSelectRowAtIndexPath". The green checkmark is trackable (checked/unchecked), and can be toggled independent of table selection.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/Accessory/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008066)
+
+Last Revision:	Version 1.2, 2010-06-23
