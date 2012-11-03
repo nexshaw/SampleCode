@@ -1459,3 +1459,11 @@ Demonstrates how to search the contents of a UITableView using UISearchBar and U
 [URL](https://developer.apple.com/library/ios/#samplecode/TableSearch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007848)
 
 Last Revision:	Version 1.5, 2010-06-17
+
+#BonjourWeb#
+
+This application illustrates the fundamentals of browsing for network services using Bonjour. The BonjourBrowser hierarchically displays Bonjour domains and services as table views in a navigation controller. The contents of the table views are discovered and updated dynamically using NSNetServiceBrowser objects. Tapping an item in the services table causes the corresponding NSNetService object to be resolved asynchronously. When that resolution completes, a delegate method is called which constructs a URL and opens it in Safari.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/BonjourWeb/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007415)
+
+Last Revision:	Version 2.9, 2010-06-16
