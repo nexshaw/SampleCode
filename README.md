@@ -1475,3 +1475,11 @@ AddMusic demonstrates basic use of iPod library access, part of the Media Player
  [URL](https://developer.apple.com/library/ios/#samplecode/AddMusic/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008845)
  
 Last Revision:	Version 1.1.1, 2009-10-01
+
+#GKTank#
+
+GKTank is a sample application that shows how to use the GKSession and GKPeerPickerController classes in the GameKit framework to add Peer-to-Peer Connectivity to an application.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/GKTank/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008918)
+
+Last Revision:	Version 1.0.1, 2009-06-08
