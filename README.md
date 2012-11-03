@@ -1399,3 +1399,17 @@ The second scroller simply displays one image, matching its contentSize to the i
 [URL](https://developer.apple.com/library/ios/#samplecode/Scrolling/Introduction/Intro.html#//apple_ref/doc/uid/DTS40008023)
 
 Last Revision:	Version 1.1, 2010-06-23
+
+#TheElements#
+
+TheElements is a sample application that provides access to the data contained in the Periodic Table of the Elements. The Periodic Table of the Elements catalogs all the known atomic elements in the universe.
+
+TheElements provides this data in multiple formats, allowing you to sort the data by name, atomic number, symbol name, and an element's physical state at room temperature.
+
+TheElements is structured as a Model-View-Controller application. There is distinct separation of the model data, the views used to present that data, and the controllers which act as a liaison between the model and controller.
+
+The application illustrates the following techniques: configuring and responding to selections in a tab bar, displaying information in a tableview using both plain and grouped style table views, using navigation controllers to navigate deeper into a data structure, subclassing UIView, providing a custom UITableViewCell consisting of multiple subviews, implementing the UITableViewDelegate protocol, implementing the UITableViewDataSource protocol, reacting to taps in views, open a URL to an external web site using Safari, flipping view content from front to back, and creating a reflection of a view in the interface.
+
+[URL](https://developer.apple.com/library/ios/#samplecode/TheElements/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007419)
+
+Last Revision:	Version 1.11, 2010-06-23
