@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'ContainerBanner' target in the 'ContainerBanner' project
+// Prefix header for all source files of the 'SplitViewBanner' target in the 'SplitViewBanner' project
 //
 
 #import <Availability.h>

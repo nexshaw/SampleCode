@@ -1,6 +1,6 @@
 /*
-     File: main.m
- Abstract: Main entry point
+     File: CollectionViewController.h
+ Abstract: A simple view controller that manages a collection view controller and a medium rect ADBannerView
   Version: 2.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -47,11 +47,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+@interface CollectionViewController : UICollectionViewController
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@end

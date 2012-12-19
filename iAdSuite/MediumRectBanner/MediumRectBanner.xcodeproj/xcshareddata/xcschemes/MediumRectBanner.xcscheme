@@ -14,17 +14,17 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "631EA7151402E7CF003FB021"
-               BuildableName = "ContainerBanner.app"
-               BlueprintName = "ContainerBanner"
-               ReferencedContainer = "container:ContainerBanner.xcodeproj">
+               BlueprintIdentifier = "6390749115C3207600B1754D"
+               BuildableName = "MediumRectBanner.app"
+               BlueprintName = "MediumRectBanner"
+               ReferencedContainer = "container:MediumRectBanner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "6390749115C3207600B1754D"
+            BuildableName = "MediumRectBanner.app"
+            BlueprintName = "MediumRectBanner"
+            ReferencedContainer = "container:MediumRectBanner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "6390749115C3207600B1754D"
+            BuildableName = "MediumRectBanner.app"
+            BlueprintName = "MediumRectBanner"
+            ReferencedContainer = "container:MediumRectBanner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "6390749115C3207600B1754D"
+            BuildableName = "MediumRectBanner.app"
+            BlueprintName = "MediumRectBanner"
+            ReferencedContainer = "container:MediumRectBanner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

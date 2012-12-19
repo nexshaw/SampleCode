@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "631EA7151402E7CF003FB021"
-               BuildableName = "ContainerBanner.app"
-               BlueprintName = "ContainerBanner"
-               ReferencedContainer = "container:ContainerBanner.xcodeproj">
+               BlueprintIdentifier = "631EA73B1402E87D003FB021"
+               BuildableName = "SplitNavigationBanner.app"
+               BlueprintName = "SplitNavigationBanner"
+               ReferencedContainer = "container:SplitNavigationBanner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "631EA73B1402E87D003FB021"
+            BuildableName = "SplitNavigationBanner.app"
+            BlueprintName = "SplitNavigationBanner"
+            ReferencedContainer = "container:SplitNavigationBanner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "631EA73B1402E87D003FB021"
+            BuildableName = "SplitNavigationBanner.app"
+            BlueprintName = "SplitNavigationBanner"
+            ReferencedContainer = "container:SplitNavigationBanner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "631EA7151402E7CF003FB021"
-            BuildableName = "ContainerBanner.app"
-            BlueprintName = "ContainerBanner"
-            ReferencedContainer = "container:ContainerBanner.xcodeproj">
+            BlueprintIdentifier = "631EA73B1402E87D003FB021"
+            BuildableName = "SplitNavigationBanner.app"
+            BlueprintName = "SplitNavigationBanner"
+            ReferencedContainer = "container:SplitNavigationBanner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -423,13 +423,15 @@ Last Revision:	Version 1.2, 2012-01-19
 
 #iAdSuite#
 
-iAdSuite is a set of five samples demonstrating how to manage an ADBannerView in 4 common scenarios: An application with a single view controller (BasicBanner, ContainerBanner), an application that uses a UITabBarViewController (TabbedBanner), an application that uses a UINavigationViewController (NavigationBanner) and an application that uses a UISplitViewController (SplitViewBanner).
+iAdSuite is a set of samples demonstrating how to manage an ADBannerView in many common scenarios, each scenario demonstrated in a particular sample application.
 
-All of the samples use a simple view controller that display a read-only UITextView (managed by the TextViewController class) along with a label that shows a running timer. The ADBannerView is placed at the bottom of the view in all cases, and all orientations are supported by each sample. The BasicBanner and ContainerBanner are configured to support both iPhone and iPad idioms, the TabbedBanner and NavigationBanner to support only the iPhone idiom, and the SplitViewBanner to support only the iPad idiom.
+In many of the samples the content is represented by a simple TextViewController view controller that displays some text in a read-only UITextView and runs a timer. The UITextView represents your application's content and the timer represents ongoing activity in your application that you will want to pause when the advertisement takes over the user interface. The MediumRectBanner sample uses a UICollectionView with image content instead, adding the banners as additional cells.
+
+The traditional banner (represented with the ADAdTypeBanner constant) is expected to be placed at or near the bottom of the screen and placed to consume the full width of the screen. New in iOS 6 is the Medium Rect sized banner (represented with the ADAdTypeMediumRectangle constant) which is intended to be placed inline with other content from your application. It is highly recommended that you create only a single instance of each type of banner that you use (so if you use both a banner and medium rect type, you would have at most 1 instance of each) and that you share these instances among the places in your UI that they are used.
 
 [URL](https://developer.apple.com/library/ios/#samplecode/iAdSuite/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010198)
 
-Last Revision:	Version 2.0, 2011-10-31
+Last Revision:	Version 2.1, 2012-10-22
 
 #SimpleStocks#
 

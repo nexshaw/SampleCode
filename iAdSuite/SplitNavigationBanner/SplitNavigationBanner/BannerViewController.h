@@ -1,6 +1,6 @@
 /*
-    File: TextViewController.h
-Abstract: A simple view controller that manages a content view and an ADBannerView
+    File: BannerViewController.h
+Abstract: A container view controller that manages an ADBannerView and a content view controller
  Version: 2.1
 
 Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -48,8 +48,11 @@ Copyright (C) 2012 Apple Inc. All Rights Reserved.
 #import <UIKit/UIKit.h>
 #import <iAd/iAd.h>
 
-@interface TextViewController : UIViewController <ADBannerViewDelegate>
+extern NSString * const BannerViewActionWillBegin;
+extern NSString * const BannerViewActionDidFinish;
 
-@property (nonatomic, copy) NSString *text;
+@interface BannerViewController : UIViewController <ADBannerViewDelegate>
+
+- (instancetype)initWithContentViewController:(UIViewController *)contentController;
 
 @end

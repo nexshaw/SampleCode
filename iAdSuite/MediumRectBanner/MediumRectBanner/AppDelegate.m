@@ -1,6 +1,6 @@
 /*
-    File: TextViewController.h
-Abstract: A simple view controller that manages a content view and an ADBannerView
+    File: AppDelegate.m
+Abstract: Application delegate
  Version: 2.1
 
 Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -45,11 +45,22 @@ Copyright (C) 2012 Apple Inc. All Rights Reserved.
 
 */
 
-#import <UIKit/UIKit.h>
-#import <iAd/iAd.h>
+#import "AppDelegate.h"
+#import "CollectionViewController.h"
 
-@interface TextViewController : UIViewController <ADBannerViewDelegate>
+@implementation AppDelegate {
+    CollectionViewController *_viewController;
+}
 
-@property (nonatomic, copy) NSString *text;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    _viewController = [[CollectionViewController alloc] initWithNibName:@"CollectionViewController" bundle:nil];
+    self.window.rootViewController = _viewController;
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
 @end

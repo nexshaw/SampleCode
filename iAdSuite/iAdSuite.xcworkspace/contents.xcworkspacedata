@@ -8,15 +8,15 @@
       location = "group:BasicBanner/BasicBanner.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TabbedBanner/TabbedBanner.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:NavigationBanner/NavigationBanner.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ContainerBanner/ContainerBanner.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SplitViewBanner/SplitViewBanner.xcodeproj">
+      location = "group:SplitNavigationBanner/SplitNavigationBanner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TabbedBanner/TabbedBanner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediumRectBanner/MediumRectBanner.xcodeproj">
    </FileRef>
 </Workspace>

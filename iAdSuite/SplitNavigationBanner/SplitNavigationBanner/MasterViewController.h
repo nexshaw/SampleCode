@@ -1,6 +1,6 @@
 /*
-    File: TextViewController.h
-Abstract: A simple view controller that manages a content view and an ADBannerView
+    File: MasterViewController.h
+Abstract: A simple view controller that manages a table view
  Version: 2.1
 
 Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -46,10 +46,11 @@ Copyright (C) 2012 Apple Inc. All Rights Reserved.
 */
 
 #import <UIKit/UIKit.h>
-#import <iAd/iAd.h>
 
-@interface TextViewController : UIViewController <ADBannerViewDelegate>
+@class TextViewController;
 
-@property (nonatomic, copy) NSString *text;
+@interface MasterViewController : UITableViewController
+
+@property (nonatomic, strong) TextViewController *detailViewController;
 
 @end
